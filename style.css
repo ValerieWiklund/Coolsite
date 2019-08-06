@@ -1,11 +1,17 @@
 .boxed-text {
   background-color: blue;
   color: white;
-  text-align: center;
   font-size: 36px;
   border: 1px solid black; 
   }
-  
+
+  .header{
+    padding-left: 150px;
+
+  }
+  .footer{
+    height: 50px;
+  }
 .bold-text {
   font-weight: bold; 
 }
@@ -15,21 +21,32 @@
 }
 
 .sidebar {
-right: 0;
-height: 100%;
-width: 180px; 
-border: 2px solid red;
-z-index: 1;
-top: 0;
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  /*z-index: 1; /* Stay on top */
+  top: 180px; /* Stay at the top */
+  right: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  margin: 20px;
 }
 
 .body-text {
-  margin-right: 180px;
-  text-align: center;
+  margin-right: 250px;
+  position: fixed;
+  padding-left: 150px;
+  padding-right: 50px;
 }
 
+.body-text p {
+  margin-left: 20px;
+}
 .image-placeholder {
   background-color: blue;
-  height: 30px
+  height: 75px;
+  width: auto;
+  text-align: center;
+  padding: 25 0;
+  color: white;
+
 }
 
