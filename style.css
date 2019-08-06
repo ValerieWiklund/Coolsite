@@ -15,7 +15,7 @@
 
   .footer {
     height: 100px;
-    width: 100%;
+    width: 98%;
     position: fixed;
     bottom: 0;
   }
@@ -40,8 +40,7 @@
   top: 155px; /* Stay at the top */
   right: 20px;
   overflow-x: hidden; /* Disable horizontal scroll */
-.}
-
+}
 
 .body-text {
   margin-right: 250px;
@@ -68,16 +67,16 @@
   padding-top: 50px;
   padding-bottom:0px;
   color: white;
-  font-size: 25px;
-
+  font-size: 20px;
+  margin-bottom: 4px;
 }
 .caption {
-  font-size:12px; 
+  font-size:10px; 
   padding: 0;
-  Margin: 0;
+  Margin: 2 0 0 0;
 }
 .sidebar h5 {
-  font-size: 20px;
+  font-size: 15px;
   padding:0px;
   margin: 0px;
 }
