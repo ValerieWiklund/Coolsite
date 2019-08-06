@@ -1,0 +1,35 @@
+.boxed-text {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  border: 1px solid black; 
+  }
+  
+.bold-text {
+  font-weight: bold; 
+}
+
+*{
+  font-family: sans-serif;
+}
+
+.sidebar {
+right: 0;
+height: 100%;
+width: 180px; 
+border: 2px solid red;
+z-index: 1;
+top: 0;
+}
+
+.body-text {
+  margin-right: 180px;
+  text-align: center;
+}
+
+.image-placeholder {
+  background-color: blue;
+  height: 30px
+}
+
