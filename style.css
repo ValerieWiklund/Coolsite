@@ -25,10 +25,11 @@
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   /*z-index: 1; /* Stay on top */
   top: 180px; /* Stay at the top */
-  right: 0;
+  right: 20px;
   overflow-x: hidden; /* Disable horizontal scroll */
   margin: 20px;
 }
+
 
 .body-text {
   margin-right: 250px;
@@ -45,8 +46,20 @@
   height: 75px;
   width: auto;
   text-align: center;
-  padding: 25 0;
+  padding-top: 50px;
+  padding-bottom:0px;
   color: white;
+  font-size: 25px;
 
+}
+.caption {
+  font-size:12px; 
+  padding: 0;
+  Margin: 0;
+}
+.sidebar h5 {
+  font-size: 20px;
+  padding:0px;
+  margin: 0px;
 }
 
