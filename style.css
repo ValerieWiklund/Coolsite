@@ -1,7 +1,8 @@
 .boxed-text {
-  background-color: blue;
+  background-color: #5261a8;
   color: white;
   font-size: 38px;
+  font-weight:bold;
   border: 1px solid black; 
   }
 
@@ -16,7 +17,11 @@
     width: 100%;
     position: fixed;
     bottom: 0;
-    background-color: blue;
+  }
+
+  .divide-box {
+    height:15px;
+    background-color: lightblue;
   }
 
   .bold-text {
@@ -31,7 +36,7 @@
   width: 200px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   /*z-index: 1; /* Stay on top */
-  top: 180px; /* Stay at the top */
+  top: 135px; /* Stay at the top */
   right: 20px;
   overflow-x: hidden; /* Disable horizontal scroll */
 .}
@@ -42,6 +47,7 @@
   position: fixed;
   padding-left: 150px;
   padding-right: 50px;
+  top: 120px;
   }
 
 .body-text p {
@@ -54,7 +60,7 @@
 }
 
 .image-placeholder {
-  background-color: blue;
+  background-color: #548edc;
   height: 75px;
   width: auto;
   text-align: center;
