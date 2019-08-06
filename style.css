@@ -1,18 +1,25 @@
 .boxed-text {
   background-color: blue;
   color: white;
-  font-size: 36px;
+  font-size: 38px;
   border: 1px solid black; 
   }
 
-  .header{
+  .headline-box {
     padding-left: 150px;
+    padding-top:0;
+    height: 75px;
+  }
 
+  .footer {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: blue;
   }
-  .footer{
-    height: 50px;
-  }
-.bold-text {
+
+  .bold-text {
   font-weight: bold; 
 }
 
@@ -27,8 +34,7 @@
   top: 180px; /* Stay at the top */
   right: 20px;
   overflow-x: hidden; /* Disable horizontal scroll */
-  margin: 20px;
-}
+.}
 
 
 .body-text {
@@ -36,11 +42,17 @@
   position: fixed;
   padding-left: 150px;
   padding-right: 50px;
-}
+  }
 
 .body-text p {
   margin-left: 20px;
+  font-size: 15px;
 }
+
+.body-text h1 {
+  font-size: 25px;
+}
+
 .image-placeholder {
   background-color: blue;
   height: 75px;
